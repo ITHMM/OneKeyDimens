@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">一键Dimens</string>
+    <string name="dimens">批量生成dimens</string>
+    <string name="px_value">请输入最大px值</string>
+    <string name="file_path">此处填输出路径</string>
+    <string name="remind_file_path">dimens文件待生成.....</string>
+    <string name="base_multiple">此处填基于倍数</string>
+    <string name="_720x1280">720x1280</string>
+    <string name="_1080x1920">1080x1920</string>
+    <string name="used">已使用</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/size_30px"
+    tools:context="com.example.zcm.outputtxt.MainActivity">
+
+    <CheckBox
+        android:id="@+id/cb01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/_720x1280"
+        android:textSize="@dimen/size_36px" />
+
+    <CheckBox
+        android:id="@+id/cb02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_1080x1920"
+        android:textSize="@dimen/size_36px" />
+
+    <EditText
+        android:id="@+id/et_inputpx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_30px"
+        android:hint="@string/px_value"
+        android:typeface="sans"
+        android:textSize="@dimen/size_36px" />
+
+    <Button
+        android:id="@+id/btn_getxml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorAccent"
+        android:onClick="getXML"
+        android:padding="10dp"
+        android:text="@string/dimens"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size_36px" />
+
+    <TextView
+        android:layout_width="@dimen/size_85px"
+        android:layout_height="@dimen/size_31px"
+        android:layout_marginTop="@dimen/size_30px"
+        android:background="@drawable/ic_rec_r5_i10"
+        android:gravity="center"
+        android:text="@string/used"
+        android:textSize="@dimen/size_22px"
+        android:textStyle="italic" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/size_30px"
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/tv_remind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/remind_file_path"
+            android:textSize="@dimen/size_40px" />
+    </ScrollView>
+
+</LinearLayout>
